@@ -14,7 +14,7 @@ const users = require("./routes/users_routes");
 app.use(cors());
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["https://user-form-client.vercel.app"],
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     // credentials: true,
   })
