@@ -49,7 +49,6 @@ module.exports.signup = async (req, res, next) => {
       return res.json({
         msg: "Mobile number already registered",
         status: false,
-        user,
       });
     }
 
